@@ -1,0 +1,45 @@
+# 🌐 Ignorer les fichiers système et IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# 🛠️ Ignorer Docker et fichiers liés aux conteneurs
+docker/
+docker-compose.yml
+
+# ⚙️ Ignorer les fichiers de configuration sensibles
+.env
+.env.local
+.env.*.local
+nginx.conf
+
+# 🚀 Ignorer les dépendances Symfony
+symfony/vendor/
+symfony/var/cache/
+symfony/var/log/
+
+# 📦 Ignorer les fichiers générés par Composer et npm
+symfony/composer.lock
+symfony/package-lock.json
+symfony/yarn.lock
+
+# 🖥️ Ignorer les fichiers temporaires et uploadés WordPress
+wordpress/wp-content/uploads/
+wordpress/wp-content/cache/
+wordpress/wp-content/upgrade/
+wordpress/wp-config.php
+wordpress/.htaccess
+wordpress/wp-content/debug.log
+
+# 🎨 Ignorer les fichiers Twig compilés (Symfony)
+symfony/var/twig/
+
+# 📂 Ignorer les fichiers spécifiques à WordPress et aux plugins
+wordpress/wp-content/plugins/*/node_modules/
+wordpress/wp-content/plugins/*/vendor/
+wordpress/wp-content/plugins/*/package-lock.json
+wordpress/wp-content/themes/*/node_modules/
+wordpress/wp-content/themes/*/vendor/
+wordpress/wp-content/themes/*/package-lock.json
