@@ -6,14 +6,12 @@ Thumbs.db
 *.swp
 
 # 🛠️ Ignorer Docker et fichiers liés aux conteneurs
-docker/
-docker-compose.yml
+
 
 # ⚙️ Ignorer les fichiers de configuration sensibles
 .env
 .env.local
 .env.*.local
-nginx.conf
 
 # 🚀 Ignorer les dépendances Symfony
 symfony/vendor/
